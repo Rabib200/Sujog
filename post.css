@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}        
+body{
+    font-family: Space Grotesk;
+    background-color: #0f102d!important;
+    overflow-x: hidden;
+}
+.wrapper{
+    position: absolute;
+    height: 100vh;
+    overflow: hidden;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index:100;
+    background-color: #0f102d!important;
+
+}
+header ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 15px;
+    
+}
+header ul li a{
+    color: #aba9b4;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all ease 0.5s;
+}
+header ul li a:hover{
+    color: #f09053;
+    text-decoration: none;
+    
+}
+header ul li a.btn{
+    display: inline-block;
+    width: 180px;
+    height: 60px;
+    line-height: 50px;
+    background-color: #f09053;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 50px;
+    transition: all ease 0.5s;
+    
+}
+header ul li a.btn:hover{
+    background-color: #f09053;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+.logo{
+    width: 75px;
+    height: auto;
+    padding: 5px;
+    }
+    .logo img{
+        width: 100%;
+        height: auto;
+    }
+    .t-white{
+        color: #ffffff!important;
+    }
+    
+    .post-margin{
+        margin-top: 0!important;
+        margin-bottom: 0!important;
+    
+    }
+
+    .t-orange{
+        color: #f09053!important;
+    }
+
+    .t-blue{
+        color: #0f102d!important;
+    }
+
+    .post-margin{
+        margin-top: 80px!important;
+        margin-bottom: 0!important;
+    }
+
+    .button-color{
+        background-color:#fc8f00!important;
+        color: #000000!important;
+    }
+    .button-color:hover{
+        background-color:#8b8b8b!important;
+        color: #ffffff!important;
+        border-style: none!important;
+    }
+
+    .bg-header{
+        background-color: #d97924e9!important;
+    }
